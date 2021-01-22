@@ -15,6 +15,7 @@ options.add_experimental_option(
 options.add_experimental_option("useAutomationExtension", False)
 # CHROME ONLY option to prevent Restore Session popup
 options.add_argument("--disable-session-crashed-bubble")
+options.add_argument("--incognito")
 selenium_logger.setLevel(logging_WARNING)
 urllib_logger.setLevel(logging_WARNING)
 
